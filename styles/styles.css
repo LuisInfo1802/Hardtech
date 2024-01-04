@@ -53,7 +53,7 @@ h4{
 img{
     max-width:100%;
 }
-p{
+.subtext{
     font-size: 1.9rem;
 }
 .no-margin{
@@ -121,4 +121,89 @@ color:var(--blanco)
 }
 .logo__bold{
     font-weight: 700;
+}
+@media (min-width:768px){
+    .navegacion{
+        display: flex;
+        gap:2rem;
+    }
+}
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
+
+@media (min-width: 768px){
+    .contenido-principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+
+    }
+}
+.entrada{
+    border-bottom: 2px solid var(--gris);
+    margin-bottom: 2rem;
+}
+/*Last of type el ultimo con esta clase*/
+.entrada:last-of-type{ 
+    border:none;
+    margin-bottom: 0;
+}
+.boton{
+    
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+@media (max-width:768px)
+{
+    .boton{
+        display: inline;
+        
+    }
+}
+.boton--primario{
+    background-color: var(--negro);
+}
+.boton--secundario{
+    background-color: var(--primario);
+}
+.cursos{
+    list-style: none;
+}
+.widget-curso{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+.widget-curso:last-of-type{
+border:none;
+margin-bottom: 0;
+}
+.widget-curso__lable{
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+.widget-curso__info{
+    font-weight: normal;
+}
+.widget-curso__lable, .widget-curso__info{
+    font-size: 2rem;
+}
+.imgBlog{
+    width:85rem;
+    height: 35rem;
+}
+.footer{
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
