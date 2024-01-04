@@ -42,6 +42,7 @@ h1{
 
 h2{
     font-size: 4rem;
+
 }
 h3{
     font-size: 3.2rem;
@@ -52,6 +53,9 @@ h4{
 img{
     max-width:100%;
 }
+p{
+    font-size: 1.9rem;
+}
 .no-margin{
     margin: 0;
 }
@@ -61,4 +65,60 @@ img{
 
 .centrar-text{
     text-align: center;
+}
+/*Cuando se supera la resolución se coloca el style que contiene dentro cuando se vea en moviles o pantallas pequeñas no*/
+.navegacion{
+
+}
+@media (min-width:768px){
+    .navegacion{
+        display: flex;
+        gap:2rem;
+    }
+}
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
+.header{
+    background-image: url(https://i.pinimg.com/originals/e4/28/15/e428152eecbc597a0617dc7be7c7d418.gif);
+    height: 60rem;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    /*Centered the right and top*/
+    background-position: center center;
+}
+.header__texto{
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+}
+@media (min-width:768px){
+    .header__texto{
+        margin-top: 20rem;
+        
+    }
+
+}
+@media (min-width:768px){
+    .barra{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+.barra{
+    padding: 2rem;
+}
+.logo{
+color:var(--blanco)
+}
+.logo__nombre{
+    font-weight: 400;
+}
+.logo__bold{
+    font-weight: 700;
 }
