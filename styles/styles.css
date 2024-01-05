@@ -253,3 +253,33 @@ margin-bottom: 0;
         width: 50rem;
     }
 }
+
+/*Hardware Styles*/
+@media (min-width:768px)
+{
+    .product{
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        column-gap: 2rem;
+    }
+  
+}
+
+.product{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+.product:last-of-type{
+    border: none;
+}
+.productInfo{
+    font-weight: normal;
+    
+}
+.productInfo, .productLabel{
+    font-size: 1.7rem;
+}
+.productLabel{
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
