@@ -1,7 +1,7 @@
 :root{
     --fuenteHeading:'Open Sans', sans-serif;
     --fuenteParrafos:'Open Sans',sans-serif;
-    --primario: #784d3c;
+    --primario: #132169;
     --blanco: #ffffff;
     --negro: #000;
     --gris: #e1e1e1;
@@ -83,8 +83,8 @@ img{
     color: var(--blanco);
 }
 .header{
-    background-image: url(https://i.pinimg.com/originals/e4/28/15/e428152eecbc597a0617dc7be7c7d418.gif);
-    height: 60rem;
+    background-image: url(https://media2.giphy.com/media/xT4uQF7h39mlsF5czK/giphy.gif?cid=6c09b952fx09vsty9v01loynutkfi0y84al038vem6ivzwn5&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);
+    height: 50rem;
     background-size:cover ;
     background-repeat: no-repeat;
     /*Centered the right and top*/
@@ -117,7 +117,8 @@ img{
 color:var(--blanco)
 }
 .logo__nombre{
-    font-weight: 400;
+    font-size: 4.3rem;
+    font-weight: 500;
 }
 .logo__bold{
     font-weight: 700;
@@ -131,8 +132,12 @@ color:var(--blanco)
 .navegacion__enlace{
     display: block;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-weight: bold;
     color: var(--blanco);
+}
+.navegacion__enlace:hover{
+    font-size: 2.5rem;
 }
 
 @media (min-width: 768px){
@@ -163,6 +168,7 @@ color:var(--blanco)
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
+    border-radius: 5px;
 }
 @media (max-width:768px)
 {
@@ -179,6 +185,8 @@ color:var(--blanco)
 }
 .cursos{
     list-style: none;
+}
+.entrada,p{
 }
 .widget-curso{
     border-bottom: 1px solid var(--gris);
@@ -202,8 +210,19 @@ margin-bottom: 0;
     width:85rem;
     height: 35rem;
 }
+.imgSlide{
+    width: 20rem;
+    height: 15rem;
+    margin: 0 auto;
+    
+}
 .footer{
     background-color: var(--negro);
     padding-bottom: 3rem;
     margin-top: 4rem;
+}
+.footerp{
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
