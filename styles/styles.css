@@ -187,6 +187,7 @@ color:var(--blanco)
 }
 .boton--secundario{
     background-color: var(--primario);
+    
 }
 .cursos{
     list-style: none;
@@ -245,5 +246,10 @@ margin-bottom: 0;
     }
     .aboutus__image, .aboutus__text{
         flex-basis: 50%;
+        
+    }
+    .imgAbout{
+        height: 40rem;
+        width: 50rem;
     }
 }
