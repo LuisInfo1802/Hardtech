@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HardTech</title>
+    <meta name="description" content="Website about the hardware">
+    <link rel="icon" type="image/png" href="/img/icon.png"/>
+    <link rel="preload" href="styles/styles.css" as="style">
+    <link rel="preload" href="styles/normalize.css" as="style">
+    
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="preconnect" href="styles/styles.css">
-    <link rel="preconnect" href="styles/normalize.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -40,7 +44,11 @@
             <h3>About the blog</h3>
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img class="imgBlog" src="https://store.hp.com/app/assets/images/uploads/prod/4k-gaming-pcs-hero1563813118549665.jpg?impolicy=prdimg&imdensity=1&imwidth=150" alt="computer img">
+                    <picture>
+                        <source class="imgBlog" srcset="img/product1.webp" type="image/webp">
+                        <img class="imgBlog" src="/img/product1.jpg" alt="computer img">
+
+                    </picture>
                 </div>
                 <div class="entrada__contenido">
                     <h4 class="no_margin">Gaming Laptops</h4>
@@ -49,7 +57,7 @@
             </article>
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img class="imgBlog" src="https://c1.wallpaperflare.com/preview/986/794/372/hardware-computer-computer-service-technology.jpg" alt="computer img">
+                    <img class="imgBlog" src="img/product2.jpg" alt="computer img">
                 </div>
                 <div class="entrada__contenido">
                     <h4 class="no_margin">Hardware for Your Computer</h4>
@@ -58,7 +66,7 @@
             </article>
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img class="imgBlog" src="https://www.coderus.com/wp-content/uploads/2020/11/different-types-of-software-coderus-branded-image.jpg" alt="computer img">
+                    <img class="imgBlog" src="img/product3.jpg" alt="computer img">
                 </div>
                 <div class="entrada__contenido">
                     <h4 class="no_margin">Software for Your Computer</h4>
@@ -72,7 +80,7 @@
                     <li class="widget-curso">
                         <h4 class="no-margin">The Best Hardware for Your Computer</h4>
                         <div class="imgSlide">
-                            <img src="https://purepng.com/public/uploads/large/purepng.com-ramelectronicsram-941524673871z6dnm.png" class="imgSlide" alt="hardware">
+                            <img src="img/product1.1.png" class="imgSlide" alt="hardware">
                         </div>
                         <p class="widget-curso__info no-padding ">Best prices and Quality</p>
 
@@ -83,7 +91,7 @@
                         <h4 class="no-margin">Most Purchased Laptops
                         </h4>
                         <div class="imgSlide">
-                            <img src="https://i0.wp.com/globalmedia-it.com/wp-content/uploads/2020/05/Nitro5_AN515-55_AN515-44_02.png?fit=1000%2C1038&ssl=1" class="imgSlide" alt="hardware">
+                            <img src="img/product1.2.webp" class="imgSlide" alt="hardware">
                         </div>
                         <p class="widget-curso__info no-padding ">You need buy this</p>
 
@@ -112,5 +120,6 @@
         </div>
         <p class="footerp no-margin no-padding">All Rights Reserved 2024</p>
     </footer>
+    <script src="js/modernzr.js" type="text/javascript" ></script>
 </body>
 </html>

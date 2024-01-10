@@ -83,7 +83,7 @@ img{
     color: var(--blanco);
 }
 .header{
-    background-image: url(https://media2.giphy.com/media/xT4uQF7h39mlsF5czK/giphy.gif?cid=6c09b952fx09vsty9v01loynutkfi0y84al038vem6ivzwn5&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);
+    background-image: url("../img/banner.gif");
     height: 59rem;
     background-size:cover ;
     background-repeat: no-repeat;
