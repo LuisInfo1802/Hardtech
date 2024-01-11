@@ -252,6 +252,9 @@ margin-bottom: 0;
         height: 40rem;
         width: 50rem;
     }
+    .aboutus__image{
+        align-items: baseline;
+    }
 }
 
 /*Hardware Styles*/
