@@ -162,6 +162,9 @@ color:var(--blanco)
     border:none;
     margin-bottom: 0;
 }
+.boton:hover{
+    cursor: pointer;
+}
 .boton{
     
     display: block;
@@ -295,5 +298,28 @@ margin-bottom: 0;
     background-repeat: no-repeat;
 }
 .formulario{
+    background-color: var(--blanco);
+    /*Formulario se sobre pone con el margin -20
+    es como si quitar mas lo de separación y en vez de poner
+    margin top o botom se especifica todo en uno solo*/
+    margin: -20rem auto 0 auto;
+    width: 95%;
+    padding: 2rem;
+}
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo__label{
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
 
+}
+.campo__field{
+    flex: 1rem;
+    border: 1px solid var(--gris);
+}
+.campo__flied--textArea{
+    height: 200px;
 }
