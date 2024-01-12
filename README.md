@@ -9,15 +9,14 @@ Una pagina web que habla acerca de el mejor hardware y software que puedes utili
 
 # Results 
 English
--As a final result, the HardTech page has been created with its different sections, showing the use of different uses of labels and configuration of style sheets, as shown in the following images.
-
+- As a final result, the HardTech page has been created with its different sections, showing the use of different uses of labels and configuration of style sheets in addition to having a responsive style suitable for any device, as shown in the following images.
 Español
--Como resultado final, se ha logrado realizar la página de HardTech con sus diferentes secciones, mostrando la utilización de diferentes usos de etiquetas y configuración de hojas de estilos, como se muestran en las siguientes imágenes.
+- Como resultado final, se ha logrado realizar la página de HardTech con sus diferentes secciones, mostrando la utilización de diferentes usos de etiquetas y configuración de hojas de estilos a demas de tener un estilo responsivo apto para cualquier dispositivo, como se muestran en las siguientes imágenes.
 
 [![HardTech](https://github.com/LuisInfo1802/gallery/blob/main/hartechpage.gif)](https://postimg.cc/nMjx5r44)
 
 And responsive desing
+[![imagen-2024-01-12-011345433.png](https://i.postimg.cc/65Pryn46/imagen-2024-01-12-011345433.png)](https://postimg.cc/vcWgK1vC)
 
-[![imagen-2024-01-04-180809259.png](https://i.postimg.cc/JzR00c5v/imagen-2024-01-04-180809259.png)](https://postimg.cc/F7nNnSqV)
 
 [You can check the WebSite here!](https://hardtechpor.netlify.app)
