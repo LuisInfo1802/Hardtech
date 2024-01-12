@@ -283,3 +283,15 @@ margin-bottom: 0;
     font-family: var(--fuenteHeading);
     font-weight: bold;
 }
+
+/*Contact Style*/
+
+.contact-bg{
+    background-image: url(../img/banner.gif);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.formulario{
+    
+}
