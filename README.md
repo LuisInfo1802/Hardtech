@@ -14,7 +14,7 @@ English
 Español
 -Como resultado final, se ha logrado realizar la página de HardTech con sus diferentes secciones, mostrando la utilización de diferentes usos de etiquetas y configuración de hojas de estilos, como se muestran en las siguientes imágenes.
 
-[![imagen-2024-01-04-180309594.png](https://i.postimg.cc/G3zp4s95/imagen-2024-01-04-180309594.png)](https://postimg.cc/nMjx5r44)
+[![HardTech](https://github.com/LuisInfo1802/gallery/blob/main/hartechpage.gif)](https://postimg.cc/nMjx5r44)
 
 And responsive desing
 
