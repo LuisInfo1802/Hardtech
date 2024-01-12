@@ -81,7 +81,7 @@ img{
     color: var(--blanco);
 }
 .header{
-    background-image: url("../img/banner.gif");
+    background-image: url("../img/banner5.webp");
     height: 65rem;
     background-size:cover ;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ img{
 }
 @media (min-width:768px){
     .header{
-        height: 50rem;
+        height: 35rem;
     }
 }
 .header__texto{
@@ -100,7 +100,7 @@ img{
 }
 @media (min-width:768px){
     .header__texto{
-        margin-top: 10rem;
+        margin-top: 5rem;
         
     }
 
@@ -293,5 +293,5 @@ margin-bottom: 0;
     background-repeat: no-repeat;
 }
 .formulario{
-    
+
 }
