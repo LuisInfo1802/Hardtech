@@ -67,13 +67,11 @@ img{
     text-align: center;
 }
 /*Cuando se supera la resolución se coloca el style que contiene dentro cuando se vea en moviles o pantallas pequeñas no*/
-.navegacion{
 
-}
 @media (min-width:768px){
     .navegacion{
         display: flex;
-        gap:2rem;
+        gap:50rem;
     }
 }
 .navegacion__enlace{
@@ -192,8 +190,7 @@ color:var(--blanco)
 .cursos{
     list-style: none;
 }
-.entrada,p{
-}
+
 .widget-curso{
     border-bottom: 1px solid var(--gris);
     margin-bottom: 2rem;
