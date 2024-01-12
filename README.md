@@ -16,6 +16,7 @@ Español
 [![HardTech](https://github.com/LuisInfo1802/gallery/blob/main/hartechpage.gif)](https://postimg.cc/nMjx5r44)
 
 And responsive desing
+
 [![imagen-2024-01-12-011345433.png](https://i.postimg.cc/65Pryn46/imagen-2024-01-12-011345433.png)](https://postimg.cc/vcWgK1vC)
 
 
