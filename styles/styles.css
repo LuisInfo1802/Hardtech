@@ -82,7 +82,7 @@ img{
 }
 .header{
     background-image: url("../img/banner5.webp");
-    height: 65rem;
+    height: 60rem;
     background-size:cover ;
     background-repeat: no-repeat;
     /*Centered the right and top*/
@@ -96,7 +96,8 @@ img{
 .header__texto{
     text-align: center;
     color: var(--blanco);
-    margin-top: 5rem;
+    margin-top: 0.5rem;
+    
 }
 @media (min-width:768px){
     .header__texto{
@@ -114,7 +115,7 @@ img{
 
 }
 .barra{
-    padding: 2rem;
+    padding: 1rem;
 }
 .logo{
 color:var(--blanco)
@@ -123,6 +124,7 @@ color:var(--blanco)
     font-size: 4.3rem;
     font-weight: 500;
 }
+
 .logo__bold{
     font-weight: 700;
 }
